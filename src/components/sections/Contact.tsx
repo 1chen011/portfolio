@@ -1,4 +1,3 @@
-
 export default function Contact() {
   return (
     <section
@@ -11,12 +10,12 @@ export default function Contact() {
         </p>
 
         <h2 className="max-w-3xl text-4xl font-semibold tracking-tight md:text-6xl">
-          Let's build something meaningful.
+          Let&apos;s build something meaningful.{" "}
         </h2>
 
         <p className="mt-6 max-w-xl leading-8 text-white/65">
-          Interested in connecting or discussing an opportunity?
-          Feel free to explore my work and reach out.
+          Interested in connecting or discussing an opportunity? Feel free to
+          explore my work and reach out.
         </p>
 
         <div className="mt-10 flex flex-wrap gap-4">
