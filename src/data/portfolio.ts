@@ -16,9 +16,15 @@ export const portfolio = {
       number: "01",
       name: "Planora",
       category: "Web Application",
+      tagline: "Plan your work. Focus on what matters.",
       description:
-        "A productivity application that brings task management and focused work sessions together.",
-      technologies: ["Next.js", "TypeScript", "Tailwind CSS"],
+        "A productivity workspace that brings task planning and focused work together, helping users move from organizing tasks to actually getting them done.",
+      highlights: [
+        "Organize tasks in a structured workspace",
+        "Connect focus sessions to specific tasks",
+        "Track focused work alongside task progress",
+      ],
+      technologies: ["Next.js", "TypeScript", "Tailwind CSS", "shadcn/ui"],
       status: "In Development",
       href: "https://github.com/1chen011/planora",
     },
@@ -27,11 +33,17 @@ export const portfolio = {
       number: "02",
       name: "Wallet iOS",
       category: "Native iOS Application",
+      tagline: "Everyday expenses, without the friction.",
       description:
-        "A personal finance application designed to make everyday expense tracking intuitive and effortless.",
-      technologies: ["SwiftUI", "SwiftData", "iOS"],
+        "A native expense-tracking app built around a simple idea: recording a transaction should be quick, clear, and easy to repeat.",
+      highlights: [
+        "Streamlined transaction entry",
+        "Local data persistence with SwiftData",
+        "Customizable expense categories",
+      ],
+      technologies: ["Swift", "SwiftUI", "SwiftData"],
       status: "In Development",
-      href: null,
+      href: "https://github.com/1chen011/wallet-ios",
     },
   ],
 
@@ -46,12 +58,7 @@ export const portfolio = {
         "Cross-platform mobile development",
         "Product workflows and UI engineering",
       ],
-      technologies: [
-        "Flutter",
-        "Dart",
-        "React",
-        "TypeScript",
-      ],
+      technologies: ["Flutter", "Dart", "React", "TypeScript"],
     },
   ],
 };
