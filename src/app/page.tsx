@@ -10,10 +10,8 @@ import Contact from "@/components/sections/Contact";
 export default function Home() {
   return (
     <main>
-      <div className="bg-navy">
-        <Navbar />
-        <Hero />
-      </div>
+      <Navbar />
+      <Hero />
 
       <Projects />
       <Experience />

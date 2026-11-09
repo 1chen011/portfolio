@@ -1,4 +1,3 @@
-
 export const portfolio = {
   role: "Software Engineer · Web & Mobile",
 
@@ -51,14 +50,48 @@ export const portfolio = {
     {
       role: "Frontend Developer",
       company: "Newprint",
+      period: "2026 — Present",
       description:
-        "Developing production web and mobile applications, including internal business tools and customer-facing product experiences.",
-      highlights: [
-        "Web application development",
-        "Cross-platform mobile development",
-        "Product workflows and UI engineering",
+        "Building and maintaining production web and mobile applications for internal operations and customer-facing e-commerce experiences.",
+      technologies: ["Flutter", "Dart", "TypeScript", "React", "REST APIs"],
+      products: [
+        {
+          number: "01",
+          name: "Mobile ERP",
+          category: "Internal Operations · iOS & Android",
+          description:
+            "Developed a cross-platform employee attendance application with time records, correction requests, administrative reporting, and notifications.",
+          highlights: [
+            "Employee attendance and correction workflows",
+            "Administrative reporting and workforce insights",
+            "Push notifications and app release workflows",
+          ],
+        },
+        {
+          number: "02",
+          name: "Customer E-commerce App",
+          category: "Customer Experience · Flutter",
+          description:
+            "Building a mobile ordering experience for customizable print products, from product configuration and artwork upload to checkout.",
+          highlights: [
+            "Product configuration and order workflows",
+            "Asynchronous artwork processing and previews",
+            "Shopping cart and checkout integration",
+          ],
+        },
+        {
+          number: "03",
+          name: "Admin Panel",
+          category: "Business Tools · Flutter Web",
+          description:
+            "Developing web-based administrative interfaces to support business operations and internal workflows.",
+          highlights: [
+            "Internal management interfaces",
+            "Data-driven tables and workflows",
+            "Responsive administrative UI",
+          ],
+        },
       ],
-      technologies: ["Flutter", "Dart", "React", "TypeScript"],
     },
   ],
 };
